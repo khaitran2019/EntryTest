@@ -17,7 +17,7 @@ public class NextPerfectSquare {
         }
     }
 
-    private static double nextSquare(double n){
+    public static double nextSquare(double n){
         double num = n >=0? Math.floor(Math.sqrt(n)) + 1 : 0;
         return num * num;
     }
