@@ -47,7 +47,7 @@ public class SquarePairs {
         return list;
     }
 
-    private static boolean isPerfectSquare(int n){
+    public static boolean isPerfectSquare(int n){
         double n1 = Math.floor(Math.sqrt(n));
         double n2 = Math.sqrt(n);
         return n1 == n2;

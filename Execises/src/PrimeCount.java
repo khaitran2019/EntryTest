@@ -20,7 +20,7 @@ public class PrimeCount {
         return count;
     }
 
-    private static boolean isPrime(int n){
+    public static boolean isPrime(int n){
         boolean result = true;
 
         if(n > 1){
